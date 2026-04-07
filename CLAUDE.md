@@ -21,11 +21,11 @@ Use the Task tool with these specialized subagents for appropriate tasks:
 - **ALWAYS use GitHub MCP tools** (`mcp__github__*`) for ALL GitHub operations
   - Exception: Local branches only - use `git checkout -b` instead of `mcp__github__create_branch`
 - **ALWAYS use Playwright MCP tools** (`mcp__playwright__*`) for browser testing
-  - Test against: `http://localhost:3000` (frontend), `http://localhost:8001` (API)
+  - Test against: `http://localhost:3000` (frontend), `http://localhost:8002` (API)
 
 ## Stack
 - **Frontend**: Vue 3 + Composition API + Vite (port 3000)
-- **Backend**: Python FastAPI (port 8001)
+- **Backend**: Python FastAPI (port 8002)
 - **Data**: JSON files in `server/data/` loaded via `server/mock_data.py`
 
 ## Quick Start
